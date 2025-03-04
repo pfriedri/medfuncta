@@ -35,18 +35,18 @@ mamba activate medfuncta
 ## Training (Meta-Learning)
 To obtain meta-learned shared model parameters, simply run the following command with the correct `config.yaml`:
 ```sh
-python train.py --config ./configs/experiments/DATATYPE/DATASET_RESOLUTION.yaml
+CUDA_VISIBLE_DEVICES=0 python train.py --config ./configs/experiments/DATATYPE/DATASET_RESOLUTION.yaml
 ```
 
 ## Evaluation (Test-Time Adaptation/ Reconstruction Experiments)
 To perform reconstruction experiments (evaluate the representation quality), simply run the following command with the correct `config.yaml`:
 ```sh
-python eval.py --config ./configs/eval/DATATYPE/DATASET_RESOLUTION.yaml
+CUDA_VISIBLE_DEVICES=0 python eval.py --config ./configs/eval/DATATYPE/DATASET_RESOLUTION.yaml
 ```
 ## Create a MedFuncta set
 To convert a dataset into our MedFuncta representation, simply run the following command with the correct `config.yaml`:
 ```sh
-python fit_NFset.py --config ./configs/fit/DATATYPE/DATASET_RESOLUTION.yaml
+CUDA_VISIBLE_DEVICES=0 python fit_NFset.py --config ./configs/fit/DATATYPE/DATASET_RESOLUTION.yaml
 ```
 
 
