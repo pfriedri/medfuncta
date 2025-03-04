@@ -1,17 +1,18 @@
-# MedFuncta: Modality Agnostic Representations Based on Efficient Neural Fields
+# MedFuncta: Modality-Agnostic Representations Based on Efficient Neural Fields
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Static Badge](https://img.shields.io/badge/Project-page-blue)](https://pfriedri.github.io/medfuncta-io/)
 [![arXiv](https://img.shields.io/badge/arXiv-2502.14401-b31b1b.svg)](https://arxiv.org/abs/2502.14401)
 
-This is the official PyTorch implementation of the paper **MedFuncta: Modality Agnostic Representations Based on Efficient Neural Fields** by [Paul Friedrich](https://pfriedri.github.io/), [Florentin Bieder](https://dbe.unibas.ch/en/persons/florentin-bieder/) and [Philippe C. Cattin](https://dbe.unibas.ch/en/persons/philippe-claude-cattin/).
+This is the official PyTorch implementation of the paper **MedFuncta: Modality-Agnostic Representations Based on Efficient Neural Fields** by [Paul Friedrich](https://pfriedri.github.io/), [Florentin Bieder](https://dbe.unibas.ch/en/persons/florentin-bieder/) and [Philippe C. Cattin](https://dbe.unibas.ch/en/persons/philippe-claude-cattin/).
 
 If you find our work useful, please consider to :star: **star this repository** and :memo: **cite our paper**:
 ```bibtex
 @article{friedrich2025medfuncta,
-         title={MedFuncta: Modality Agnostic Representations Based on Efficient Neural Fields},
-         author={Friedrich, Paul and Bieder, Florentin and Cattin, Philippe C},
-         journal={arXiv preprint arXiv:2502.14401},
-         year={2025}}
+  title={MedFuncta: Modality-Agnostic Representations Based on Efficient Neural Fields},
+  author={Friedrich, Paul and Bieder, Florentin and Cattin, Philippe C},
+  journal={arXiv preprint arXiv:2502.14401},
+  year={2025}
+}
 ```
 ## Paper Abstract
 Recent research in medical image analysis with deep learning has almost exclusively focused on grid- or voxel-based data representations in combination with convolutional neural networks. 
