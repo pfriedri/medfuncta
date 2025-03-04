@@ -1,0 +1,26 @@
+{
+  # Training cofiguration
+  'dataset': brats,
+  'img_size': 32,
+  'batch_size': 4,
+  'inner_steps': 10,
+  'inner_steps_boot': 0,
+  'data_ratio': 0.25,
+  'sample_type': random,
+  'lam': 0.0,
+  'w0': 10.,
+  'w0_increment': 5.,
+
+  # Test configuration
+  'test_batch_size': 4,
+  'num_test_signals': 128,
+  'inner_steps_test': 20,
+
+  # Model config
+  'hidden_size': 256,
+  'num_layers': 15,
+  'latent_modulation_dim': 8192,
+
+  # Path to trained model
+  'load_path': /path/to/best.model or /path/to/stepXXXX.model,
+}
